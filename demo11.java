@@ -1,0 +1,33 @@
+import java.io.*;
+class demo11//NegativeArraySizeException
+{
+    public void throwexp()throws Exception
+    {
+        int i=0;
+        int a[]=new int[-5];
+        BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+         for(i=0;i<5;i++)
+         {
+           System.out.println("enter the no");
+           a[i]=Integer.parseInt(br.readLine());
+         }
+         for(i=0;i<5;i++)
+         {
+          System.out.println(a[i]);
+         }
+    }
+    public static void main(String ar[])
+    { 
+      try
+      {
+         demo11 obj=new demo11();
+         obj.throwexp(); 
+      } 
+      catch(Exception kajal)
+      {
+        System.out.println(kajal);
+      }
+    }
+}
+       
+    
