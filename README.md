@@ -26,6 +26,3 @@ Learn how to chain exceptions to maintain the stack trace and provide more infor
 ⚙️ Improve Code Stability: Learn how to handle errors and exceptions to prevent crashes and unexpected behavior.
 📚 Master Exception Handling: Gain hands-on experience with Java's built-in exception classes and techniques for creating custom exceptions.
 🛠️ Write Fault-Tolerant Code: Implement robust error handling practices that allow your applications to recover gracefully from unexpected situations.
-⚖️ License
-
-This repository is open-source and free to use! Feel free to modify the code, experiment with exception handling, and contribute to the repository. Happy coding! 🎉
